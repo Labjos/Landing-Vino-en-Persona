@@ -1,0 +1,133 @@
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #f10c99;
+}
+#logoCabecera {
+    width: 60px;
+    height: 100px;
+    background-image: url(/imagenes/logoMdsGris.png);
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#principal {
+    width: 100%;
+    height: 440px;
+    background-color: black;
+}
+#imagenInicio {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#textoInicio {
+    width: 450px;
+    height: 100px;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 60px;
+    color: #ffffff;
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+#lema {
+    width: 550px;
+    height: 100px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: #ffffff;
+    float: right;
+    margin-top: 20px;
+}
+#difusion {
+    width: 100%;
+    height: 500px;
+    background-color: #BDBDBD;
+}
+#textoDifusion {
+    width: 580px;
+    height: 180px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#formulario {
+    width: 400px;
+    height: 300px;
+    background-color: #BDBDBD;
+    padding: 20px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+    border: 1px solid #ffffff;
+}
+.celdas {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+}
+#celda {
+    width: 100%;
+    background: #195ef3;
+    padding: 10px;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #a8a8a8;
+}
+#face {
+    font-size: 40px;
+    color: rgb(27, 108, 230);
+    margin-left: 20px;
+
+}
+#insta {
+    font-size: 40px;
+    color: #fdec02;
+    margin-left: 40px;
+}
+#logoPie {
+    width: 290px;
+    height: 70px;
+    background-image: url(/imagenes/LogoHorizontal.png);
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#mail {
+    color: #ffffff;
+    font-size: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    text-align: center;
+}
+#redes {
+    display: flex;
+    float: left;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+#invitacion {
+    width: 400px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 240px;
+}
