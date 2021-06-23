@@ -41,14 +41,38 @@ header {
     margin-right: 100px;
 }
 #lema {
-    width: 550px;
+    width: 390px;
     height: 100px;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 50px;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
     color: #ffffff;
     float: right;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-right: 100px;
 }
+#lema h1 {
+    position: relative;
+
+}
+#lema  h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #f10c99;
+    border-left: 2px solid #ffffff;
+
+    animation: maquina 5s infinite alternate steps(15);
+}
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+
 #difusion {
     width: 100%;
     height: 500px;
