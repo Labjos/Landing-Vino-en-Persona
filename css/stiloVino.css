@@ -45,7 +45,7 @@ header {
     height: 300px;
     background-size: cover;
     float: left;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 100px;
 }
 #textoInicio {
@@ -53,10 +53,10 @@ header {
     height: 100px;
     font-family: 'Bowlby One SC', cursive;
     font-size: 60px;
-    color: #000;
+    color: rgb(252, 206, 4);
     float: right;
     margin-top: 70px;
-    margin-right: 100px;
+    margin-right: 0px;
     z-index: 10;
 }
 #lema {
@@ -170,6 +170,6 @@ footer {
     font-size: 20px;
     float: left;
     margin-top: 40px;
-    margin-left: 240px;
+    margin-left: 220px;
     z-index: 10;
 }
